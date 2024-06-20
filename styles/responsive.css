@@ -1,0 +1,402 @@
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1300px;
+    }
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1400px) {
+    .comtainer1 {
+        width: 100%;
+        justify-content: center;
+        row-gap: 30px;
+        column-gap: 4rem;
+    }
+
+    .item3,
+    .info_artist--active {
+        display: none;
+    }
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1200px) {
+    .home__title {
+        font-size: 5rem;
+    }
+
+
+    .Figures {
+        gap: 5rem;
+    }
+
+    .ntf__offer-link {
+        max-width: 13rem;
+        font-size: 1.2rem;
+    }
+
+    .footer-right {
+        gap: 5rem;
+    }
+
+
+    .newsletter__content-right {
+        margin-left: 6rem;
+    }
+
+    .comtainer1 {
+        row-gap: 4rem;
+    }
+}
+
+
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 992px) {
+
+    .home__link,
+    .Figures {
+        justify-content: center;
+    }
+
+
+
+    .nav__button {
+        display: none;
+    }
+
+    .menu {
+        gap: 2rem;
+    }
+
+    .home__content-wrapper {
+        text-align: center;
+    }
+
+
+
+
+    .best__title {
+        font-size: 3.5rem;
+        max-width: 40rem;
+    }
+
+
+
+    .content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 2rem auto;
+    }
+
+    .content__title {
+        font-size: 3rem;
+    }
+
+    .content__links {
+        gap: 2rem;
+    }
+
+    .newsletter__form {
+        flex-direction: column;
+
+    }
+
+    .newsletter__btn {
+        position: static;
+        margin: 1rem 0 0 0;
+        max-width: 16rem;
+    }
+
+    .subsribe__title {
+        font-size: 3.5rem;
+    }
+
+
+    .item3,
+    .info_artist--active {
+        display: block;
+    }
+
+
+    .fff {
+        position: relative;
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .artists__wrapper-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1.5rem;
+    }
+
+    .item3 {
+        margin-top: 4rem;
+    }
+
+    .img__wrapper {
+        justify-content: center;
+    }
+}
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 768px) {
+    .direction-culomn {
+        flex-direction: column-reverse;
+    }
+
+    .nav__toggle-icon {
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        padding: 2rem 2.5rem;
+        width: 24rem;
+        left: -24rem;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(46, 46, 46);
+        transition: all 150ms ease
+    }
+
+    .menu--open {
+        left: 0;
+    }
+
+    .menu__link {
+        margin-bottom: 2rem;
+    }
+
+    .ntf__head-title {
+        font-size: 1.2rem;
+    }
+
+    .ntf__offer {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .ntf__head-price {
+        gap: 0;
+        font-size: 1.3rem;
+    }
+
+    .best__title {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 4.5rem;
+        max-width: 55rem;
+    }
+
+    .best__link {
+        display: none;
+    }
+
+
+
+
+    .newsletter__content-right {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+
+    .footer__wrapper {
+        display: block;
+    }
+
+    .footer-right {
+        display: flex;
+        margin-left: 0;
+        margin-top: 5rem;
+
+    }
+
+    .copy-right {
+        display: block;
+    }
+
+    .copy-right-caption {
+        margin-bottom: 2rem;
+    }
+
+
+    .fff {
+        position: relative;
+        width: 80%;
+        height: 40rem;
+    }
+
+    .container2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+
+
+
+    .home__title {
+        font-size: 4rem;
+    }
+
+    .img__wrapper,
+    .content-right__img {
+        width: 100%;
+    }
+
+    .offer {
+        position: static;
+        width: 75%;
+        margin-top: 5rem;
+    }
+
+    .Figures__numbers {
+        font-size: 2.5rem;
+    }
+
+    .Figures__boxes {
+        padding-right: 1rem;
+    }
+
+    .best__title {
+        font-size: 3.2rem;
+    }
+
+    .ntf__head-title {
+        font-size: 1.6rem;
+    }
+
+    .ntf__head-price {
+        gap: 0.7;
+        font-size: 1.6rem;
+    }
+
+    .ntf__offer {
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+    .artists__wrapper-img {
+        min-height: 35rem;
+        background-size: contain;
+    }
+
+    .artists__wrapper-img3 {
+        position: static;
+        height: 35rem;
+    }
+
+    .newsletter__email {
+        width: 100%;
+    }
+
+
+    .fff {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .offer {
+        width: 100%;
+    }
+
+    .home__title {
+        font-size: 3.5rem;
+    }
+
+    .Figures {
+        gap: 2rem;
+    }
+
+    .Figures__numbers {
+        font-size: 2rem;
+    }
+
+    .home__shape {
+        bottom: 10rem;
+        left: -6rem;
+        width: 130px;
+        height: 175px;
+    }
+
+    .content__links {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content__link {
+        width: 100%;
+    }
+
+
+    .content__right-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content__right-img--active {
+        display: none;
+    }
+
+    .newsletter__content-right {}
+
+    .subsribe__title {
+        font-size: 2.5rem;
+    }
+
+    .subsribe__caption {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .fff {
+        position: relative;
+        width: 100%;
+        height: 35rem;
+    }
+
+}

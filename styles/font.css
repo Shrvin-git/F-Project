@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "canela";
+    src: url(../fonts/CanelaText-Regular.otf)format("opentype");
+}
+
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Regular.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: "inter-bold";
+    src: url(../fonts/Inter-Bold.ttf)format("truetype");
+}
+
+
+
+@font-face {
+    font-family: "canela-Medium";
+    src: url(../fonts/Canela-Medium-Trial.otf)format("opentype");
+}
+
